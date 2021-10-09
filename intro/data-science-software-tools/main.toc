@@ -1,0 +1,5 @@
+\babel@toc {russian}{}
+\beamer@sectionintoc {2}{Numpy}{3}{0}{1}
+\beamer@subsectionintoc {2}{1}{NumPy \IeC {\cyrs }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrishrt }\IeC {\cyrd }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyre } \IeC {\cyro }\IeC {\cyrt } 2019/2020}{36}{0}{1}
+\beamer@sectionintoc {3}{CuPy}{42}{0}{2}
+\beamer@sectionintoc {4}{Matplotlib }{43}{0}{3}
