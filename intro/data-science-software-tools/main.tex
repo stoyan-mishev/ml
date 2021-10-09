@@ -116,11 +116,6 @@ dtype(’float32’)
 arr = np.arange(8).reshape(2,4) #  the total number of elements is unchanged
 print(arr)
 
-print('Slicing in the second row:', arr[1, 2:4]) 
-print('All rows, third column   :', arr[:, 2])
-print('First row:  ', arr[0])
-print('Second row: ', arr[1])
-
 print('Data type                :', arr.dtype)
 print('Total number of elements :', arr.size)
 print('Number of dimensions     :', arr.ndim)
@@ -230,6 +225,14 @@ array([[1, 2],
 >>> ary[0, 0]
 1
 \end{verbatim}
+\begin{lstlisting}
+print('Slicing in the second row:', arr[1, 2:4]) 
+print('All rows, third column   :', arr[:, 2])
+print('First row:  ', arr[0])
+print('Second row: ', arr[1])
+\end{lstlisting}
+
+
 \end{frame}
 
 \begin{frame}{Конструкция на numpy масив}
@@ -242,6 +245,7 @@ array([[1, 2],
 \end{frame}
 
 \begin{frame}[fragile]{Ufuncs}
+В Python:
 \begin{verbatim}
 >>> lst = [[1, 2, 3], [4, 5, 6]]
 >>>   for row_idx, row_val in enumerate(lst):
@@ -251,6 +255,9 @@ array([[1, 2],
 [[2, 3, 4], [5, 6, 7]]
 >>> lst = [[1, 2, 3], [4, 5, 6]]
 >>> [[cell + 1 for cell in row] for row in lst]
+\end{verbatim}
+В numpy
+\begin{verbatim}
 >>> ary = np.array([[1, 2, 3], [4, 5, 6]])
 >>> ary = np.add(ary, 1)
 >>> ary
@@ -261,6 +268,7 @@ add, subtract, divide, multiply, and exp
 \end{frame}
 
 \begin{frame}[fragile]{Ufuncs 2}
+Кратък запис
 \begin{verbatim}
 >>> ary + 1
 array([[3, 4, 5],
@@ -268,7 +276,9 @@ array([[3, 4, 5],
 >>> ary**2
 array([[ 4, 9, 16],
        [25, 36, 49]])
-       
+\end{verbatim}       
+Сумиране по колони и редове
+\begin{verbatim}
 >>> ary = np.array([[1, 2, 3],
 ...                 [4, 5, 6]])
 >>> np.add.reduce(ary) # column sumns
@@ -279,6 +289,7 @@ array([ 6, 15])
 \end{frame}
 
 \begin{frame}[fragile]{Ufuncs 3}
+Кратък запис
 \begin{verbatim}
 >>> ary.sum(axis=0) # column sums
 array([5, 7, 9])
@@ -298,19 +309,45 @@ array([5, 7, 9])
 
 • var (computes variance)
 
-• np.sort (sorts an array)
+• sort (sorts an array)
 
-• np.argsort (returns indices that would sort an array)
+• argsort (returns indices that would sort an array)
 
-• np.min (returns the minimum value of an array)
+• min (returns the minimum value of an array)
 
-• np.max (returns the maximum value of an array)
+• max (returns the maximum value of an array)
 
-• np.argmin (returns the index of the minimum value)
+• argmin (returns the index of the minimum value)
 
-• np.argmax (returns the index of the maximum value)
+• argmax (returns the index of the maximum value)
 
 • array equal (checks if two arrays have the same shape and elements)
+\end{frame}
+
+\begin{frame}[fragile]{Numpy - min, max, prod, mean, std }
+
+\begin{lstlisting}
+print('Minimum and maximum :', arr.min(), arr.max())
+print('Sum and product of all elements :', arr.sum(), arr.prod())
+print('Mean and standard deviation  :', arr.mean(), arr.std())
+\end{lstlisting}
+
+\end{frame}
+
+
+\begin{frame}{Задача}
+  Чрез \verb+numpy  да се създаде матрицата
+
+  \begin{pmatrix}
+    3 & 5 & 6 & 9 & 0 & 15\\
+    7 & 4 & 2 & 6 & 21 & 5
+  \end{pmatrix}
+
+  и да се намерят:
+  \begin{itemize}
+  \item най-малките елементи от всеки ред, както и техните индекси ;
+  \item дисперсията на всеки ред
+  \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]{Broadcasting}
@@ -335,7 +372,7 @@ array([[ 5, 7, 9],
 \end{figure}
 \end{frame}
 
-\begin{frame}[fragile]{Индексиране – Memory Views and Copies}
+\begin{frame}[fragile]{Индексиране – Memory Views and Copies 1}
 Views
 \begin{verbatim}
 >>> ary = np.array([[1, 2, 3],
@@ -345,17 +382,10 @@ Views
 >>> ary
 array([[100, 101, 102],
        [ 4, 5, 6]])
->>> ary = np.array([[1, 2, 3],
-... [4, 5, 6]])
->>> first_row = ary[:1]
->>> first_row += 99
->>> ary
-array([[100, 101, 102],
-[ 4, 5, 6]])
 \end{verbatim}
 \end{frame}
 
-\begin{frame}[fragile]{Индексиране – Memory Views and Copies}
+\begin{frame}[fragile]{Индексиране – Memory Views and Copies 2}
 
 Views
 \begin{verbatim}
@@ -369,7 +399,7 @@ array([[ 1, 101, 3],
 \end{verbatim}
 \end{frame}
 
-\begin{frame}[fragile]{Индексиране – Memory Views and Copies}
+\begin{frame}[fragile]{Индексиране – Memory Views and Copies 3}
 Copy
 \begin{verbatim}
 >>> ary = np.array([[1, 2, 3],
@@ -613,6 +643,29 @@ array([[1, 4],
 Има и специален тип \verb  matrix  .
 \end{frame}
 
+\begin{frame}[fragile]{Numpy. Матрично умножение.}
+\begin{lstlisting}
+v1 = np.array([2, 3, 4])
+v2 = np.array([1, 0, 1])
+print(v1, '.', v2, '=', v1.dot(v2))
+print(v1, '.', v2, '=', v1 @ v2)
+
+A = np.arange(6).reshape(2, 3)
+print(A, 'x', v1, '=', A @ v1)
+
+print(A @ A.T)
+
+print(A.T @ A)
+
+print(v1, '.', v2, '=', v1 @ v2)
+
+\end{lstlisting}
+
+\end{frame}
+
+\begin{frame}{Задача}
+  ....
+\end{frame}
 
 \begin{frame}{Примери от линейната алгебра, решени с NumPy}
     \url{https://www.w3resource.com/python-exercises/numpy/linear-algebra}
@@ -621,7 +674,7 @@ array([[1, 4],
 %=================================================
 
 
-\subsection{NumPy слайдове от 2019/2020}
+
 
 
 
@@ -650,15 +703,6 @@ np.random.normal(10, 3, (2, 4))
 \end{frame}
 
 
-\begin{frame}[fragile]{Numpy - min, max, prod, mean, std }
-
-\begin{lstlisting}
-print('Minimum and maximum :', arr.min(), arr.max())
-print('Sum and product of all elements :', arr.sum(), arr.prod())
-print('Mean and standard deviation  :', arr.mean(), arr.std())
-\end{lstlisting}
-
-\end{frame}
 
 \begin{frame}[fragile]{Numpy - axis }
 \begin{lstlisting}
@@ -706,25 +750,6 @@ y = np.sin(x)
 
 \end{frame}
 
-\begin{frame}[fragile]{Numpy. Матрично умножение.}
-\begin{lstlisting}
-v1 = np.array([2, 3, 4])
-v2 = np.array([1, 0, 1])
-print(v1, '.', v2, '=', v1.dot(v2))
-print(v1, '.', v2, '=', v1 @ v2)
-
-A = np.arange(6).reshape(2, 3)
-print(A, 'x', v1, '=', A @ v1)
-
-print(A @ A.T)
-
-print(A.T @ A)
-
-print(v1, '.', v2, '=', v1 @ v2)
-
-\end{lstlisting}
-
-\end{frame}
 
 \section{CuPy}
 \begin{frame}[plain]

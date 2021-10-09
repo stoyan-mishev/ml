@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.9.28)  9 OCT 2021 21:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.9.28)  9 OCT 2021 23:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1518,12 +1518,12 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 \c@lstlisting=\count182
  (./main.nav)
-<iaps.png, id=33, 889.82437pt x 113.56714pt>
+<iaps.png, id=29, 889.82437pt x 113.56714pt>
 File: iaps.png Graphic file (type png)
 <use iaps.png>
 Package pdftex.def Info: iaps.png  used on input line 22.
 (pdftex.def)             Requested size: 150.79968pt x 19.2455pt.
-<nbu.png, id=35, 443.20683pt x 142.69638pt>
+<nbu.png, id=31, 443.20683pt x 142.69638pt>
 File: nbu.png Graphic file (type png)
 <use nbu.png>
 Package pdftex.def Info: nbu.png  used on input line 22.
@@ -1570,7 +1570,7 @@ Package hyperref Warning: Glyph not defined in PD1 encoding,
 \openout4 = `main.vrb'.
 
  (./main.vrb
-<np1.png, id=68, 284.06125pt x 212.795pt>
+<np1.png, id=62, 284.06125pt x 212.795pt>
 File: np1.png Graphic file (type png)
 <use np1.png>
 Package pdftex.def Info: np1.png  used on input line 12.
@@ -1606,7 +1606,7 @@ Package pdftex.def Info: np1.png  used on input line 12.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.197 \end{frame}
+l.192 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1614,7 +1614,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.197 \end{frame}
+l.192 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1625,7 +1625,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.197 \end{frame}
+l.192 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1633,7 +1633,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.197 \end{frame}
+l.192 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1644,7 +1644,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.197 \end{frame}
+l.192 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1655,7 +1655,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \verb@egroup ...erb@balance@group \@empty \egroup 
                                                   
-l.197 \end{frame}
+l.192 \end{frame}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1670,7 +1670,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.197 \end{frame}
+l.192 \end{frame}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1681,13 +1681,13 @@ If that doesn't work, type  X <return>  to quit.
 \openout4 = `main.vrb'.
 
  (./main.vrb
-<np2.png, id=114, 234.8775pt x 253.94875pt>
+<np2.png, id=108, 234.8775pt x 253.94875pt>
 File: np2.png Graphic file (type png)
 <use np2.png>
 Package pdftex.def Info: np2.png  used on input line 15.
 (pdftex.def)             Requested size: 107.55333pt x 116.28697pt.
 )
-Overfull \vbox (25.26237pt too high) detected at line 215
+Overfull \vbox (25.26237pt too high) detected at line 210
  []
 
 [11
@@ -1695,21 +1695,28 @@ Overfull \vbox (25.26237pt too high) detected at line 215
  <./np2.png>]
 \openout4 = `main.vrb'.
 
- (./main.vrb) [12
+ (./main.vrb)
+Overfull \vbox (9.67546pt too high) detected at line 236
+ []
+
+[12
 
 ]
-<threefundamental.png, id=126, 439.6425pt x 162.6075pt>
+<threefundamental.png, id=120, 439.6425pt x 162.6075pt>
 File: threefundamental.png Graphic file (type png)
 <use threefundamental.png>
-Package pdftex.def Info: threefundamental.png  used on input line 242.
+Package pdftex.def Info: threefundamental.png  used on input line 245.
 (pdftex.def)             Requested size: 215.10196pt x 79.5568pt.
  [13
 
  <./threefundamental.png (PNG copy)>]
 \openout4 = `main.vrb'.
 
+ (./main.vrb)
+Overfull \vbox (5.60817pt too high) detected at line 268
+ []
 
-(./main.vrb) [14
+[14
 
 ]
 \openout4 = `main.vrb'.
@@ -1720,59 +1727,110 @@ Package pdftex.def Info: threefundamental.png  used on input line 242.
 \openout4 = `main.vrb'.
 
  (./main.vrb
-<np3.png, id=147, 382.42876pt x 147.55125pt>
+<np3.png, id=141, 382.42876pt x 147.55125pt>
 File: np3.png Graphic file (type png)
 <use np3.png>
-Package pdftex.def Info: np3.png  used on input line 10.
+Package pdftex.def Info: np3.png  used on input line 11.
 (pdftex.def)             Requested size: 169.01036pt x 65.20866pt.
 ) [16
 
  <./np3.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 314.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 325.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 314.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 325.
  [17
 
 ]
 \openout4 = `main.vrb'.
 
+ (./main.vrb)
+[18
+
+]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.351 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.351 \end{frame}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.351 \end{frame}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.351 \end{frame}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb illegal in command argument.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.351 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[19
+
+]
+\openout4 = `main.vrb'.
+
  (./main.vrb
-<np5.png, id=160, 388.45125pt x 72.27pt>
+<np5.png, id=166, 388.45125pt x 72.27pt>
 File: np5.png Graphic file (type png)
 <use np5.png>
 Package pdftex.def Info: np5.png  used on input line 4.
 (pdftex.def)             Requested size: 169.01036pt x 31.4438pt.
-<np6.png, id=161, 387.4475pt x 122.4575pt>
+<np6.png, id=167, 387.4475pt x 122.4575pt>
 File: np6.png Graphic file (type png)
 <use np6.png>
 Package pdftex.def Info: np6.png  used on input line 19.
 (pdftex.def)             Requested size: 169.01036pt x 53.41805pt.
 )
-Overfull \vbox (0.3577pt too high) detected at line 336
+Overfull \vbox (0.3577pt too high) detected at line 373
  []
 
-[18
+[20
 
  <./np5.png> <./np6.png>]
 \openout4 = `main.vrb'.
 
- (./main.vrb) [19
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb) [20
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-[21
+ (./main.vrb) [21
 
 ]
 \openout4 = `main.vrb'.
@@ -1782,7 +1840,8 @@ Overfull \vbox (0.3577pt too high) detected at line 336
 ]
 \openout4 = `main.vrb'.
 
- (./main.vrb) [23
+ (./main.vrb)
+[23
 
 ]
 \openout4 = `main.vrb'.
@@ -1792,8 +1851,7 @@ Overfull \vbox (0.3577pt too high) detected at line 336
 ]
 \openout4 = `main.vrb'.
 
- (./main.vrb)
-[25
+ (./main.vrb) [25
 
 ]
 \openout4 = `main.vrb'.
@@ -1803,12 +1861,23 @@ Overfull \vbox (0.3577pt too high) detected at line 336
 ]
 \openout4 = `main.vrb'.
 
- (./main.vrb) [27
+ (./main.vrb)
+[27
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb) [28
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb) [29
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb) [30
 
 ]
 \openout4 = `main.vrb'.
@@ -1823,22 +1892,6 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbullet' on input line 17.
 
-) [29
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb) [30
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb
-Overfull \hbox (9.5789pt too wide) in paragraph at lines 17--17
-[]\T2A/cmtt/m/n/10.95 >>> column_vector = np.array([[1, 2, 3]]).reshape(-1, 1)[
-] 
- []
-
 ) [31
 
 ]
@@ -1850,114 +1903,76 @@ Overfull \hbox (9.5789pt too wide) in paragraph at lines 17--17
 \openout4 = `main.vrb'.
 
  (./main.vrb
-<np9.png, id=243, 391.4625pt x 129.48375pt>
+Overfull \hbox (9.5789pt too wide) in paragraph at lines 17--17
+[]\T2A/cmtt/m/n/10.95 >>> column_vector = np.array([[1, 2, 3]]).reshape(-1, 1)[
+] 
+ []
+
+) [33
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb) [34
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb
+<np9.png, id=248, 391.4625pt x 129.48375pt>
 File: np9.png Graphic file (type png)
 <use np9.png>
 Package pdftex.def Info: np9.png  used on input line 17.
 (pdftex.def)             Requested size: 169.01036pt x 55.90413pt.
-) [33
+) [35
 
  <./np9.png>]
 \openout4 = `main.vrb'.
 
  (./main.vrb
-<np10.png, id=250, 387.4475pt x 185.69376pt>
+<np10.png, id=255, 387.4475pt x 185.69376pt>
 File: np10.png Graphic file (type png)
 <use np10.png>
 Package pdftex.def Info: np10.png  used on input line 10.
 (pdftex.def)             Requested size: 169.01036pt x 81.0028pt.
-) [34
+) [36
 
- <./np10.png>] [35
-
-]
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrs' on input line 624.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrl' on input line 624.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyra' on input line 624.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrishrt' on input line 624.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrd' on input line 624.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 624.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrv' on input line 624.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyre' on input line 624.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 624.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrt' on input line 624.
-
-\openout4 = `main.vrb'.
-
-(./main.vrb) [36
-
-]
+ <./np10.png>]
 \openout4 = `main.vrb'.
 
  (./main.vrb) [37
 
-]
-\openout4 = `main.vrb'.
+] [38
 
- (./main.vrb) [38
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
-) [39
+] [39
 
 ]
 \openout4 = `main.vrb'.
 
-
-(./main.vrb) [40
+ (./main.vrb) [40
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb) [41
 
-] [42
+]
+\openout4 = `main.vrb'.
 
-] [43
+
+(./main.vrb
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
+) [42
 
 ]
 \openout4 = `main.vrb'.
 
- (./main.vrb) [44
+ (./main.vrb) [43
 
-]
-\openout4 = `main.vrb'.
+] [44
 
- (./main.vrb)
-[45
+] [45
 
 ]
 \openout4 = `main.vrb'.
@@ -1967,7 +1982,18 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 ]
 \openout4 = `main.vrb'.
 
- (./main.vrb) [47
+ (./main.vrb)
+[47
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb) [48
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb) [49
 
 ]
 \tf@nav=\write6
@@ -1979,20 +2005,15 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 \tf@snm=\write8
 \openout8 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 992.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 992.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1017.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1017.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 992.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 992.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1017.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1017.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 6E1BC2C8297988A8D5F3564E78B018D0;160.
 
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 1B38D451758399F1F3C6FC45928525DF;230
-(rerunfilecheck)             After:  DBAD1E52C2F68AABBEE9C6F7B4CF80D8;230.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2001,34 +2022,32 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 25253 strings out of 492615
- 462597 string characters out of 6131390
+ 25280 strings out of 492615
+ 463262 string characters out of 6131390
  821383 words of memory out of 5000000
- 28433 multiletter control sequences out of 15000+600000
+ 28458 multiletter control sequences out of 15000+600000
  22841 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,56p,810b,1285s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Outline0.2.1.35} has been referenced but does not
- exist, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-ftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sftt1440.pfb>
-Output written on main.pdf (47 pages, 530898 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super
+/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/s
+hare/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/typ
+e1/public/cm-super/sftt1440.pfb>
+Output written on main.pdf (49 pages, 545739 bytes).
 PDF statistics:
- 415 PDF objects out of 1000 (max. 8388607)
- 320 compressed objects within 4 object streams
- 102 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 425 PDF objects out of 1000 (max. 8388607)
+ 327 compressed objects within 4 object streams
+ 104 named destinations out of 1000 (max. 500000)
+ 125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
